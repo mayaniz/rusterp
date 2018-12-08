@@ -1,0 +1,15 @@
+[package]
+name = "rusterp"
+version = "0.1.0"
+authors = ["Mariana Marquez <mayaniz@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[workspace]
+members = [
+    "rusterp-auth",
+    "rusterp-comm",
+    "rusterp-gui",
+    "rusterp-store",
+]
